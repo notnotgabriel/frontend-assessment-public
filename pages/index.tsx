@@ -1,7 +1,15 @@
 import type { NextPage } from "next";
+import { CharactersTable } from "../src/characters/CharactersTable";
 
 const Home: NextPage = () => {
-  return <div>Hello World</div>;
+  
+
+  return (
+    <>
+      <h1>Rick and Morty characters</h1>
+      <CharactersTable />
+    </>
+  )
 };
 
 export default Home;

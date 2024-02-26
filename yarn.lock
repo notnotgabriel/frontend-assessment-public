@@ -85,7 +85,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@babel/runtime@npm:^7.23.2, @babel/runtime@npm:^7.23.9":
+"@babel/runtime@npm:^7.23.9":
   version: 7.23.9
   resolution: "@babel/runtime@npm:7.23.9"
   dependencies:
@@ -528,7 +528,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@mui/utils@npm:^5.14.16, @mui/utils@npm:^5.15.11":
+"@mui/utils@npm:^5.15.11":
   version: 5.15.11
   resolution: "@mui/utils@npm:5.15.11"
   dependencies:
@@ -543,24 +543,6 @@ __metadata:
     "@types/react":
       optional: true
   checksum: 10/a3c3862a93eb646ddd212c19dee44bef4bee9232fc463a0b27ffc79b0e41a6c4b09b152953156c7ca458b1856dddd0cc4febc078e2151574e3df62868504fb59
-  languageName: node
-  linkType: hard
-
-"@mui/x-data-grid@npm:^6.19.5":
-  version: 6.19.5
-  resolution: "@mui/x-data-grid@npm:6.19.5"
-  dependencies:
-    "@babel/runtime": "npm:^7.23.2"
-    "@mui/utils": "npm:^5.14.16"
-    clsx: "npm:^2.0.0"
-    prop-types: "npm:^15.8.1"
-    reselect: "npm:^4.1.8"
-  peerDependencies:
-    "@mui/material": ^5.4.1
-    "@mui/system": ^5.4.1
-    react: ^17.0.0 || ^18.0.0
-    react-dom: ^17.0.0 || ^18.0.0
-  checksum: 10/c1eb78c5f2192a01d9c9fdb6fc4b4db4f63f4bddf97123b5968ce5484e199169c680353cb0085d26d7b9375c176d040ab669196e3a3ba948713ada79168c3656
   languageName: node
   linkType: hard
 
@@ -1149,7 +1131,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"clsx@npm:^2.0.0, clsx@npm:^2.1.0":
+"clsx@npm:^2.1.0":
   version: 2.1.0
   resolution: "clsx@npm:2.1.0"
   checksum: 10/2e0ce7c3b6803d74fc8147c408f88e79245583202ac14abd9691e2aebb9f312de44270b79154320d10bb7804a9197869635d1291741084826cff20820f31542b
@@ -2750,8 +2732,6 @@ __metadata:
     "@emotion/react": "npm:^11.10.0"
     "@emotion/styled": "npm:^11.10.0"
     "@mui/material": "npm:^5.15.11"
-    "@mui/system": "npm:^5.15.11"
-    "@mui/x-data-grid": "npm:^6.19.5"
     "@tanstack/react-query": "npm:^5.24.1"
     "@types/node": "npm:18.7.11"
     "@types/react": "npm:18.0.17"
@@ -2959,13 +2939,6 @@ __metadata:
   version: 0.4.2
   resolution: "remove-accents@npm:0.4.2"
   checksum: 10/25d5c84f1355be60b42f8ad8a1ba29c2413dead138a9e2a88633e4fc94a1b953afe306dd27479125aef231d267482c54d292e558b04ec100fb9adf063ccbf75a
-  languageName: node
-  linkType: hard
-
-"reselect@npm:^4.1.8":
-  version: 4.1.8
-  resolution: "reselect@npm:4.1.8"
-  checksum: 10/199984d9872f71cd207f4aa6e6fd2bd48d95154f7aa9b3aee3398335f39f5491059e732f28c12e9031d5d434adab2c458dc8af5afb6564d0ad37e1644445e09c
   languageName: node
   linkType: hard
 
